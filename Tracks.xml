@@ -1,0 +1,591 @@
+<Defs>
+    <!-- MusicExpanded Tracks -->
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Crystals</label>
+        <defName>MusicMedievalModPackByArveleg_Crystals</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Crystals</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Diamonds</label>
+        <defName>MusicMedievalModPackByArveleg_Diamonds</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Diamonds</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Far, Far from Home</label>
+        <defName>MusicMedievalModPackByArveleg_FarFarFromHome</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Far, Far from Home</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Forever Hills</label>
+        <defName>MusicMedievalModPackByArveleg_ForeverHills</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Forever Hills</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Nature</label>
+        <defName>MusicMedievalModPackByArveleg_Nature</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Nature</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Prepare</label>
+        <defName>MusicMedievalModPackByArveleg_Prepare</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Prepare</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Stay Home</label>
+        <defName>MusicMedievalModPackByArveleg_StayHome</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Stay Home</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - We Should Give This Place a Name</label>
+        <defName>MusicMedievalModPackByArveleg_WeShouldGiveThisPlaceAName</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - We Should Give This Place a Name</clipPath>
+    </MusicExpanded.TrackDef>
+	
+    <!-- Secret Tracks -->
+	
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Evelyn's Song</label>
+        <defName>MusicMedievalModPackByArveleg_EvelynsSong</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - [Secret Song] Start Colony With a Pawn Named Evelyn</clipPath>
+        <cue>HasColonistNamed</cue>
+        <cueData>Evelyn</cueData>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Snowfall</label>
+        <defName>MusicMedievalModPackByArveleg_Snowfall</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - [Secret Song] Will Only Play for the First Snowfall</clipPath>
+        <vanillaLogic>true</vanillaLogic>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Lone Colonist</label>
+        <defName>MusicMedievalModPackByArveleg_LoneColonist</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - [Secret Song] Start With Only One Colonist</clipPath>
+        <cue>LoneColonist</cue>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Golden</label>
+        <defName>MusicMedievalModPackByArveleg_GoldForest</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/[Secret] Medieval_Fantasy_Scenario_Begin_Gold_Forest</clipPath>
+    </MusicExpanded.TrackDef>
+    <!-- Arveleg Tracks -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Drowning_Hope</label>
+        <defName>MusicMedievalModPackByArveleg_Drowning_Hope</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Drowning_Hope</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Dungeon of Wonder</label>
+        <defName>MusicMedievalModPackByArveleg_Dungeon_of_Wonder</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Dungeon_of_Wonder</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Enmerkar Forest Night</label>
+        <defName>MusicMedievalModPackByArveleg_Enmerkar_Forest_Night</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Enmerkar_Forest_Night</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Jesper Kyd Kingdom of Wessex</label>
+        <defName>MusicMedievalModPackByArveleg_Jesper_Kyd_Kingdom_of_Wessex</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Jesper_Kyd_Kingdom_of_Wessex</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Jesper Kyd - Knowledge of the Birds</label>
+        <defName>MusicMedievalModPackByArveleg_Jesper_Kyd_Knowledge_of_the_Birds</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Jesper_Kyd_Knowledge_of_the_Birds</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Lake of Serenity</label>
+        <defName>MusicMedievalModPackByArveleg_Lake_of_Serenity</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Lake_of_Serenity</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Mysterious_Trails</label>
+        <defName>MusicMedievalModPackByArveleg_Mysterious_Trails</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Mysterious_Trails</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Path of the Godwoken</label>
+        <defName>MusicMedievalModPackByArveleg_Path_of_the_Godwoken</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Path_of_the_Godwoken</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - The Dream Land</label>
+        <defName>MusicMedievalModPackByArveleg_The_Dream_Land</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/The_Dream_Land</clipPath>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Welcome to Fort Joy</label>
+        <defName>MusicMedievalModPackByArveleg_Welcome_to_Fort_Joy</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Welcome_to_Fort_Joy</clipPath>
+    </MusicExpanded.TrackDef>
+	<!-- Day -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Bittersweet Regrets</label>
+        <defName>MusicMedievalModPackByArveleg_Bittersweet_Regrets</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Bittersweet_Regrets</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Cierzo</label>
+        <defName>MusicMedievalModPackByArveleg_Cierzo</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Cierzo</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Medieval Tears Alt</label>
+        <defName>MusicMedievalModPackByArveleg_Medieval_Tears_Alt</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Medieval_Tears_Alt</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+	<!-- Night -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - A Single Drop of Magic</label>
+        <defName>MusicMedievalModPackByArveleg_A_Single_Drop_of_Magic</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/A_Single_Drop_of_Magic</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Abrassar Night</label>
+        <defName>MusicMedievalModPackByArveleg_Abrassar_Night</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Abrassar_Night</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Beerenweg</label>
+        <defName>MusicMedievalModPackByArveleg_Beerenweg</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Beerenweg</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Cierzo Night</label>
+        <defName>MusicMedievalModPackByArveleg_Cierzo_Night</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Cierzo_Night</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Driftwood</label>
+        <defName>MusicMedievalModPackByArveleg_Driftwood</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Driftwood</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Dungeon of Hope</label>
+        <defName>MusicMedievalModPackByArveleg_Dungeon_of_Hope</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Dungeon_of_Hope</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Fasanengarten</label>
+        <defName>MusicMedievalModPackByArveleg_Fasanengarten</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Fasanengarten</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - zandaq</label>
+        <defName>MusicMedievalModPackByArveleg_zandaq</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/zandaq</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+    </MusicExpanded.TrackDef>
+	<!-- Summer -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Amber Ale</label>
+        <defName>MusicMedievalModPackByArveleg_Amber_Ale</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Amber_Ale</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Summer</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Jeremy Soule-Forest Day Theme</label>
+        <defName>MusicMedievalModPackByArveleg_Jeremy_Soule-Forest_Day_Theme</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Jeremy_Soule-Forest_Day_Theme</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Summer</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Contemplate the stars</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Contemplate_the_stars</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Contemplate_the_stars</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Summer</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Pleasure of Simplicity Alt</label>
+        <defName>MusicMedievalModPackByArveleg_Pleasure_of_Simplicity_Alt</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Pleasure_of_Simplicity_Alt</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Summer</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+	<!-- Winter -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Caldera at night</label>
+        <defName>MusicMedievalModPackByArveleg_Caldera_at_night</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Caldera_at_night</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Winter 3</label>
+        <defName>MusicMedievalModPackByArveleg_Winter_3</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Winter_3</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Antique Plateau at night</label>
+        <defName>MusicMedievalModPackByArveleg_Antique_Plateau_at_night</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Antique_Plateau_at_night</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Mirror_of_Truth</label>
+        <defName>MusicMedievalModPackByArveleg_Mirror_of_Truth</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Mirror_of_Truth</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - FlybyNo 13</label>
+        <defName>MusicMedievalModPackByArveleg_FlybyNo_13</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/FlybyNo_13</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - FlybyNo 14</label>
+        <defName>MusicMedievalModPackByArveleg_FlybyNo_14</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/FlybyNo_14</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - FlybyNo 15</label>
+        <defName>MusicMedievalModPackByArveleg_FlybyNo_15</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/FlybyNo_15</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - FlybyNo 23</label>
+        <defName>MusicMedievalModPackByArveleg_FlybyNo_23</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/FlybyNo_23</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Winter</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+	<!-- Fall -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Rain</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Rain</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Rain</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Fall</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Away</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Away</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Away</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Fall</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Blind</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Blind</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Blind</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Fall</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Chalet</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Chalet</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Chalet</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Fall</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Freezing but warm</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Freezing_but_warm</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Freezing_but_warm</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Fall</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Please wake up</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Please_wake_up</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Please_wake_up</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Fall</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+	<!-- Spring -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan Surreal Forest</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Surreal_Forest</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Surreal_Forest</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Spring</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan_Pure_Water</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Pure_Water</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Pure_Water</clipPath>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Spring</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Path of the Godwoken Oud Version</label>
+        <defName>MusicMedievalModPackByArveleg_Path_of_the_Godwoken_Oud_Version</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Path_of_the_Godwoken_Oud_Version</clipPath>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+        <allowedSeasons>
+            <li>Spring</li>
+        </allowedSeasons>
+    </MusicExpanded.TrackDef>
+    <!-- MainMenu Tracks -->
+	<MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Menu Music</label>
+        <defName>MusicMedievalModPackByArveleg_MenuMusic</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Menu Music</clipPath>
+        <cue>MainMenu</cue>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - For the King</label>
+        <defName>MusicMedievalModPackByArveleg_ForTheKing</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - For the King</clipPath>
+        <cue>MainMenu</cue>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Quirky_Bones_Murky_Version</label>
+        <defName>MusicMedievalModPackByArveleg_Quirky_Bones_Murky_Version</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Quirky_Bones_Murky_Version</clipPath>
+		<cue>MainMenu</cue>
+    </MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Cerf Meydan</label>
+        <defName>MusicMedievalModPackByArveleg_Cerf_Meydan</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Cerf_Meydan</clipPath>
+        <cue>MainMenu</cue>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Meydan_Story</label>
+        <defName>MusicMedievalModPackByArveleg_Meydan_Story</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Meydan_Story</clipPath>
+		<cue>MainMenu</cue>
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalByArveleg - Quirky Bones</label>
+        <defName>MusicMedievalModPackByArveleg_Quirky_Bones</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Quirky_Bones</clipPath>
+		<cue>Credits</cue>
+    </MusicExpanded.TrackDef>
+    <!-- Battle Tracks -->
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Reflections from the Past</label>
+        <defName>MusicMedievalModPackByArveleg_Reflections_from_the_Past</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Reflections_from_the_Past</clipPath>
+        <cue>BattleSmall</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Madness</label>
+        <defName>MusicMedievalModPackByArveleg_Madness</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Madness</clipPath>
+        <cue>BattleSmall</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Tense 12</label>
+        <defName>MusicMedievalModPackByArveleg_Tense_12</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Tense_12</clipPath>
+        <cue>BattleSmall</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Large Battle</label>
+        <defName>MusicMedievalModPackByArveleg_LargeBattle</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Large Battle</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Legendary Battle</label>
+        <defName>MusicMedievalModPackByArveleg_LegendaryBattle</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Legendary Battle</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Hand Me My Bow</label>
+        <defName>MusicMedievalModPackByArveleg_HandMeMyBow</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Hand Me My Bow</clipPath>
+        <cue>BattleSmall</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Medium Battle</label>
+        <defName>MusicMedievalModPackByArveleg_MediumBattle</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Medium Battle</clipPath>
+        <cue>BattleMedium</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>Medieval (Fantasy) - Small Battle</label>
+        <defName>MusicMedievalModPackByArveleg_SmallBattle</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Rim Medieval (Fantasy) - Small Battle</clipPath>
+        <cue>BattleSmall</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Aldr</label>
+        <defName>MusicMedievalModPackByArveleg_Aldr</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Aldr</clipPath>
+        <cue>BattleMedium</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Atgeir</label>
+        <defName>MusicMedievalModPackByArveleg_Atgeir</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Atgeir</clipPath>
+        <cue>BattleMedium</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Fegur</label>
+        <defName>MusicMedievalModPackByArveleg_Fegur</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Fegur</clipPath>
+        <cue>BattleMedium</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Syrgja</label>
+        <defName>MusicMedievalModPackByArveleg_Syrgja</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Syrgja</clipPath>
+        <cue>BattleMedium</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Feigr</label>
+        <defName>MusicMedievalModPackByArveleg_Feigr</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Feigr</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Fjolsvin</label>
+        <defName>MusicMedievalModPackByArveleg_Fjolsvin</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Fjolsvin</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Fury of the Northmen</label>
+        <defName>MusicMedievalModPackByArveleg_Fury_of_the_Northmen</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Fury_of_the_Northmen</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Holmgang</label>
+        <defName>MusicMedievalModPackByArveleg_Holmgang</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Holmgang</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Imar</label>
+        <defName>MusicMedievalModPackByArveleg_Imar</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Imar</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Tyr</label>
+        <defName>MusicMedievalModPackByArveleg_Tyr</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Tyr</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Tyrfing</label>
+        <defName>MusicMedievalModPackByArveleg_Tyrfing</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Tyrfing</clipPath>
+        <cue>BattleLarge</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Tense 15</label>
+        <defName>MusicMedievalModPackByArveleg_Tense_15</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Tense_15</clipPath>
+        <cue>BattleLegendary</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - BOSS</label>
+        <defName>MusicMedievalModPackByArveleg_BOSS</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/BOSS</clipPath>
+        <cue>BattleLegendary</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Dance of Death</label>
+        <defName>MusicMedievalModPackByArveleg_Dance_of_Death</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Dance_of_Death</clipPath>
+        <cue>BattleLegendary</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Dancing with the Source (Cello Version)</label>
+        <defName>MusicMedievalModPackByArveleg_Dancing_with_the_Source_Cello_Version</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Dancing_with_the_Source_Cello_Version</clipPath>
+        <cue>BattleLegendary</cue>
+
+    </MusicExpanded.TrackDef>
+    <MusicExpanded.TrackDef>
+        <label>MedievalArveleg - Father of Gods</label>
+        <defName>MusicMedievalModPackByArveleg_Father_of_Gods</defName>
+        <clipPath>MusicExpanded/MedievalModPackByArveleg/Father_of_Gods</clipPath>
+        <cue>BattleLegendary</cue>
+
+    </MusicExpanded.TrackDef>
+</Defs>
